@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admission</title>
+    </head>
+    <body>
+        <form>
+            <h3>Admission Information (Please fill in data in English)</h3>
+            Admission Type:
+            <select name="Select">
+                <option>--Select--</option>
+                <option value="External">External</option>
+            </select>
+            <br><br>
+            Academic Year:  
+            <select name="year">
+                <option value="2020">2020</option>
+            </select>
+            Semester:  
+            <select name="semester">
+                <option value="1">1</option>
+            </select>
+            <hr>
+            <h3>Examination Center</h3>
+            Examination Center:
+            <select name="Choose Place">
+                <option>Choose Place</option>
+                <option value="mandalay">Mandalay</option>
+                <option vlaue="yangon">Yangon</option>
+            </select>
+            <hr>
+            <h3>Application Information</h3>
+            Title: 
+            <select name="--Select--">
+                <option>--Select--</option>
+                <option value="male">Mr.</option>
+                <option value="female">Ms.</option>
+                <option value="both">Mrs.</option>
+            </select>
+            <br><br>
+            Name (EN):
+            <input type="text" name="name">
+            Surname (EN):
+            <input type="text" name="Surname">
+            <br><br>
+            Name (MM): 
+            <input type="text" name="name">
+            Surname (MM):
+            <input type="text" name="Surname">
+            <br><br>
+            Gender:
+            <input type="radio" name="gender" value="male"/>Male
+            <input type="radio" name="gender" value="female"/>Female
+            <br><br>
+            E-mail:
+            <input type="text" name="email">
+            <br><br>
+            Syllabus:
+            <input name="major" list="majors" placeholder="Majors">
+            <datalist id="majors">
+                <option value="Chemical Engineering(ChE)"></option>
+                <option value="Chemical Engineering(ChE)">Chemical Engineering(ChE)</option>
+                <option value="Electrical Engineering(EE)"></option>
+                <option value="Mechanical Engineering(MP)"></option>
+            </datalist>
+            <hr>
+        </form> 
+    </body>
+    
+</html>

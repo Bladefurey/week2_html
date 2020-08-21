@@ -1,0 +1,19 @@
+@font-face{
+    font-family:Monsterrat;
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+h1{
+    color:blue;
+}
+.color1{
+    color:red;
+}
+h4{
+    color:blue;
+}
+div{
+    background-color:cyan;
+}
+body{
+    font-family:'Montserrat', sans-serif;;
+}
